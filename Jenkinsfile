@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout code') {
             steps {
-                git branch: 'main', url: 'https://github.com/CecoIvanow/SeleniumIde.git'
+                git branch: 'main', url: 'https://github.com/CecoIvanow/SEDO-Retake-Exam-2.git'
             }
         }
 
